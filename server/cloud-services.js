@@ -36,11 +36,17 @@ export async function googleRequest(url, { body, method = body ? 'POST' : 'GET',
 export function createCloudServices(config = cloudConfig(), request = googleRequest) {
   const objectUrl = name => `https://storage.googleapis.com/storage/v1/b/${encode(config.bucket)}/o/${encode(name)}`;
   async function readObject(name) {
-    try {
-      const metadata = await request(objectUrl(name));
-      const data = await request(`${objectUrl(name)}?alt=media&ifGenerationMatch=${metadata.generation}`);
-      return { data, generation: metadata.generation };
-    } catch (error) { if (error.status === 404) return null; throw error; }
+    for (let attempt = 0; attempt < 3; attempt++) {
+      try {
+        const metadata = await request(objectUrl(name));
+        const data = await request(`${objectUrl(name)}?alt=media&ifGenerationMatch=${metadata.generation}`);
+        return { data, generation: metadata.generation };
+      } catch (error) {
+        if (error.status === 404) return null;
+        if (error.status !== 412) throw error;
+      }
+    }
+    throw new PublicError('Scene storage is changing. Try again shortly.', 503);
   }
   async function writeObject(name, data, generation) {
     return request(`https://storage.googleapis.com/upload/storage/v1/b/${encode(config.bucket)}/o?uploadType=media&name=${encode(name)}${generation === undefined ? '' : `&ifGenerationMatch=${generation}`}`, { body: data, headers: { 'Cache-Control': 'private, no-store' } });
@@ -99,7 +105,7 @@ export function createCloudServices(config = cloudConfig(), request = googleRequ
     return { status: typeof meters === 'number' ? 'ready' : 'no-data', provider: 'Earth Engine', dataset: 'NASA/NASADEM_HGT/001', meters: typeof meters === 'number' ? meters : null, resolutionMeters: 30, note: 'Terrain elevation, not road-deck height. Cannot distinguish flyovers.' };
   }
   async function reason(job, terrain) {
-    const text = `Generate a short advisory explanation for a navigation preview. The user selected preview intent: ${job.intent}. Terrain elevation in meters: ${terrain.meters ?? 'unavailable'}. Explain the general maneuver concept without inventing street names, lanes, road widths, restrictions, or safety assurances. State that signs and official directions take priority. Return JSON with explanation (max 220 characters). No geographic coordinates or Google imagery/instructions are provided. This is inference only; do not claim measured alignment.`;
+    const text = `Generate a short advisory explanation for a navigation preview. The user selected preview intent: ${job.intent}. Terrain elevation in meters: ${terrain.meters ?? 'unavailable'}. Explain the general maneuver concept without inventing street names, lanes, road widths, restrictions, or safety assurances. This is one terrain sample: do not infer slope, elevation trends, or upcoming road conditions. State that signs and official directions take priority. Return JSON with explanation (max 220 characters). No geographic coordinates or Google imagery/instructions are provided. This is inference only; do not claim measured alignment.`;
     const data = await request(`https://aiplatform.googleapis.com/v1/projects/${config.project}/locations/global/publishers/google/models/${config.model}:generateContent`, { timeout: 45000, body: { contents: [{ role: 'user', parts: [{ text }] }], generationConfig: { temperature: 0.2, maxOutputTokens: 256, responseMimeType: 'application/json', responseSchema: { type: 'OBJECT', properties: { explanation: { type: 'STRING' } }, required: ['explanation'] } } } });
     const raw = data.candidates?.[0]?.content?.parts?.map(part => part.text || '').join('');
     let output;

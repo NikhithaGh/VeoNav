@@ -6,7 +6,7 @@ A deployed React / Three.js / Node prototype with two distinct workspaces: **Liv
 
 **Live prototype:** https://aeronav-933096818749.asia-south1.run.app
 
-Deployed to `veonav` / `asia-south1`. The automated suite includes 18 tests covering demo regressions, real-route validation, signed sessions, worker idempotency, cloud-provider contracts, and persistent quotas.
+Deployed to `veonav` / `asia-south1`. The automated suite includes 19 tests covering demo regressions, real-route validation, signed sessions, worker idempotency, cloud-provider contracts, and persistent quotas.
 
 ## Live experience
 

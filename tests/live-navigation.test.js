@@ -81,7 +81,7 @@ function fakeCloud() {
     throw new Error('Unexpected request');
   };
   const config={project:'veonav',dataset:'aeronav_spatial',bucket:'test',topic:'test',location:'asia-south1',earthEnabled:true,model:'test-model'};
-  return{services:createCloudServices(config,request),objects,calls};
+  return{services:createCloudServices(config,request),objects,calls,request,config};
 }
 
 test('cloud pipeline publishes once, indexes GIS, samples Earth Engine, invokes Gemini, and delivers stored metadata',async()=>{
@@ -93,6 +93,16 @@ test('cloud pipeline publishes once, indexes GIS, samples Earth Engine, invokes 
   assert.equal(calls.find(c=>c.url.includes('bigquery')).options.body.maximumBytesBilled,'10485760');
   const prompt=calls.find(c=>c.url.includes('aiplatform')).options.body.contents[0].parts[0].text;
   assert.ok(!prompt.includes('-122.4'));assert.equal(scene.frames,undefined);
+});
+
+test('scene reads retry concurrent object generation changes',async()=>{
+  const base=fakeCloud();let conflict=true;
+  base.objects.set('scenes/test.json',{generation:'1',data:{status:'ready',expiresAt:new Date(Date.now()+60000).toISOString()}});
+  const services=createCloudServices(base.config,async(url,options)=>{
+    if(url.includes('alt=media')&&conflict){conflict=false;throw Object.assign(new Error('Changed'),{status:412});}
+    return base.request(url,options);
+  });
+  assert.equal((await services.scene('test')).status,'ready');
 });
 
 test('shared persistent quota fails closed at the daily scene limit',async()=>{

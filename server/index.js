@@ -15,7 +15,7 @@ export function createApp({ distPath = join(projectRoot, 'dist') } = {}) {
   app.disable('x-powered-by');
   app.use((_req, res, next) => {
     res.setHeader('X-Content-Type-Options', 'nosniff');
-    res.setHeader('Referrer-Policy', 'same-origin');
+    res.setHeader('Referrer-Policy', 'strict-origin-when-cross-origin');
     next();
   });
   app.get('/api/health', (_req, res) => res.json({ status: 'ok', service: 'aeronav', demo: true, live: process.env.LIVE_INTEGRATIONS === 'true' }));
