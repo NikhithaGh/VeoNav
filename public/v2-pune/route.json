@@ -1,0 +1,406 @@
+{
+  "id": "pune-panoramax-v2",
+  "title": "Pune · recorded street preview",
+  "distanceMeters": 514.1985602042831,
+  "captureDate": "2022-11-09",
+  "creator": "Devdatta",
+  "license": "CC-BY-SA-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "points": [
+    {
+      "coordinates": [
+        73.8360561,
+        18.5194929
+      ],
+      "meters": 0,
+      "capturedAt": "2022-11-09T03:14:49+00:00"
+    },
+    {
+      "coordinates": [
+        73.8361736,
+        18.519442
+      ],
+      "meters": 13.620444167546975,
+      "capturedAt": "2022-11-09T03:14:51+00:00"
+    },
+    {
+      "coordinates": [
+        73.8362998,
+        18.5193963
+      ],
+      "meters": 27.863889386591367,
+      "capturedAt": "2022-11-09T03:14:53+00:00"
+    },
+    {
+      "coordinates": [
+        73.8364251,
+        18.5193542
+      ],
+      "meters": 41.880001341162085,
+      "capturedAt": "2022-11-09T03:14:55+00:00"
+    },
+    {
+      "coordinates": [
+        73.8365472,
+        18.5193291
+      ],
+      "meters": 55.05290612589691,
+      "capturedAt": "2022-11-09T03:14:57+00:00"
+    },
+    {
+      "coordinates": [
+        73.8366719,
+        18.5193235
+      ],
+      "meters": 68.215621242157,
+      "capturedAt": "2022-11-09T03:14:59+00:00"
+    },
+    {
+      "coordinates": [
+        73.8367973,
+        18.5193457
+      ],
+      "meters": 81.66586943596718,
+      "capturedAt": "2022-11-09T03:15:01+00:00"
+    },
+    {
+      "coordinates": [
+        73.8369199,
+        18.5193732
+      ],
+      "meters": 94.94918276628425,
+      "capturedAt": "2022-11-09T03:15:03+00:00"
+    },
+    {
+      "coordinates": [
+        73.8370444,
+        18.5193982
+      ],
+      "meters": 108.36718677426006,
+      "capturedAt": "2022-11-09T03:15:05+00:00"
+    },
+    {
+      "coordinates": [
+        73.8371801,
+        18.5194343
+      ],
+      "meters": 123.22739368936158,
+      "capturedAt": "2022-11-09T03:15:07+00:00"
+    },
+    {
+      "coordinates": [
+        73.8373009,
+        18.519468
+      ],
+      "meters": 136.50395967241394,
+      "capturedAt": "2022-11-09T03:15:08+00:00"
+    },
+    {
+      "coordinates": [
+        73.8374298,
+        18.5195101
+      ],
+      "meters": 150.8783977960414,
+      "capturedAt": "2022-11-09T03:15:11+00:00"
+    },
+    {
+      "coordinates": [
+        73.8375533,
+        18.5195605
+      ],
+      "meters": 165.0546163490803,
+      "capturedAt": "2022-11-09T03:15:13+00:00"
+    },
+    {
+      "coordinates": [
+        73.8376543,
+        18.5196278
+      ],
+      "meters": 178.0701855674826,
+      "capturedAt": "2022-11-09T03:15:14+00:00"
+    },
+    {
+      "coordinates": [
+        73.8377537,
+        18.5197041
+      ],
+      "meters": 191.55425260067062,
+      "capturedAt": "2022-11-09T03:15:17+00:00"
+    },
+    {
+      "coordinates": [
+        73.8378363,
+        18.5197723
+      ],
+      "meters": 203.10229090282854,
+      "capturedAt": "2022-11-09T03:15:19+00:00"
+    },
+    {
+      "coordinates": [
+        73.8379123,
+        18.5198381
+      ],
+      "meters": 213.95328485915218,
+      "capturedAt": "2022-11-09T03:15:21+00:00"
+    },
+    {
+      "coordinates": [
+        73.8379891,
+        18.5198847
+      ],
+      "meters": 223.56680551222888,
+      "capturedAt": "2022-11-09T03:15:23+00:00"
+    },
+    {
+      "coordinates": [
+        73.8380718,
+        18.5199018
+      ],
+      "meters": 232.49131558063664,
+      "capturedAt": "2022-11-09T03:15:25+00:00"
+    },
+    {
+      "coordinates": [
+        73.8381717,
+        18.519898
+      ],
+      "meters": 243.0328955936176,
+      "capturedAt": "2022-11-09T03:15:27+00:00"
+    },
+    {
+      "coordinates": [
+        73.8382795,
+        18.5198869
+      ],
+      "meters": 254.46577200639297,
+      "capturedAt": "2022-11-09T03:15:29+00:00"
+    },
+    {
+      "coordinates": [
+        73.8383984,
+        18.5198688
+      ],
+      "meters": 267.16270428503765,
+      "capturedAt": "2022-11-09T03:15:30+00:00"
+    },
+    {
+      "coordinates": [
+        73.8385188,
+        18.5198484
+      ],
+      "meters": 280.05833854954903,
+      "capturedAt": "2022-11-09T03:15:33+00:00"
+    },
+    {
+      "coordinates": [
+        73.838646,
+        18.5198338
+      ],
+      "meters": 293.5677688689816,
+      "capturedAt": "2022-11-09T03:15:35+00:00"
+    },
+    {
+      "coordinates": [
+        73.8387773,
+        18.5198195
+      ],
+      "meters": 307.50260840809455,
+      "capturedAt": "2022-11-09T03:15:36+00:00"
+    },
+    {
+      "coordinates": [
+        73.838917,
+        18.5198051
+      ],
+      "meters": 322.3188736406902,
+      "capturedAt": "2022-11-09T03:15:39+00:00"
+    },
+    {
+      "coordinates": [
+        73.8390575,
+        18.5197843
+      ],
+      "meters": 337.3121771639841,
+      "capturedAt": "2022-11-09T03:15:41+00:00"
+    },
+    {
+      "coordinates": [
+        73.839198,
+        18.5197625
+      ],
+      "meters": 352.32303739513856,
+      "capturedAt": "2022-11-09T03:15:43+00:00"
+    },
+    {
+      "coordinates": [
+        73.839329,
+        18.5197422
+      ],
+      "meters": 366.3184639133741,
+      "capturedAt": "2022-11-09T03:15:45+00:00"
+    },
+    {
+      "coordinates": [
+        73.8394648,
+        18.51972
+      ],
+      "meters": 380.84799081362274,
+      "capturedAt": "2022-11-09T03:15:47+00:00"
+    },
+    {
+      "coordinates": [
+        73.8395974,
+        18.5197
+      ],
+      "meters": 395.0046581613995,
+      "capturedAt": "2022-11-09T03:15:49+00:00"
+    },
+    {
+      "coordinates": [
+        73.8397316,
+        18.5196782
+      ],
+      "meters": 409.36039379589647,
+      "capturedAt": "2022-11-09T03:15:51+00:00"
+    },
+    {
+      "coordinates": [
+        73.8398654,
+        18.5196542
+      ],
+      "meters": 423.71801535048803,
+      "capturedAt": "2022-11-09T03:15:52+00:00"
+    },
+    {
+      "coordinates": [
+        73.8399939,
+        18.5196311
+      ],
+      "meters": 437.5079622326583,
+      "capturedAt": "2022-11-09T03:15:55+00:00"
+    },
+    {
+      "coordinates": [
+        73.8401156,
+        18.5196084
+      ],
+      "meters": 450.5855127693179,
+      "capturedAt": "2022-11-09T03:15:57+00:00"
+    },
+    {
+      "coordinates": [
+        73.8402332,
+        18.5195946
+      ],
+      "meters": 463.07945906782595,
+      "capturedAt": "2022-11-09T03:15:58+00:00"
+    },
+    {
+      "coordinates": [
+        73.840347,
+        18.5195729
+      ],
+      "meters": 475.3183717747266,
+      "capturedAt": "2022-11-09T03:16:01+00:00"
+    },
+    {
+      "coordinates": [
+        73.8404681,
+        18.5195552
+      ],
+      "meters": 488.23755649530545,
+      "capturedAt": "2022-11-09T03:16:03+00:00"
+    },
+    {
+      "coordinates": [
+        73.8405878,
+        18.5195262
+      ],
+      "meters": 501.263776894304,
+      "capturedAt": "2022-11-09T03:16:05+00:00"
+    },
+    {
+      "coordinates": [
+        73.8407063,
+        18.5194961
+      ],
+      "meters": 514.1985602042831,
+      "capturedAt": "2022-11-09T03:16:07+00:00"
+    }
+  ],
+  "clips": [
+    {
+      "id": "smooth-00",
+      "startMeters": 0,
+      "endMeters": 94.94918276628425,
+      "durationSeconds": 13.600000000000001,
+      "src": "/v2-pune/smooth-00.mp4",
+      "poster": "/v2-pune/smooth-00.png"
+    },
+    {
+      "id": "smooth-05",
+      "startMeters": 68.215621242157,
+      "endMeters": 165.0546163490803,
+      "durationSeconds": 13.600000000000001,
+      "src": "/v2-pune/smooth-05.mp4",
+      "poster": "/v2-pune/smooth-05.png"
+    },
+    {
+      "id": "smooth-10",
+      "startMeters": 136.50395967241394,
+      "endMeters": 223.56680551222888,
+      "durationSeconds": 13.600000000000001,
+      "src": "/v2-pune/smooth-10.mp4",
+      "poster": "/v2-pune/smooth-10.png"
+    },
+    {
+      "id": "smooth-15",
+      "startMeters": 203.10229090282854,
+      "endMeters": 280.05833854954903,
+      "durationSeconds": 13.600000000000001,
+      "src": "/v2-pune/smooth-15.mp4",
+      "poster": "/v2-pune/smooth-15.png"
+    },
+    {
+      "id": "smooth-20",
+      "startMeters": 254.46577200639297,
+      "endMeters": 352.32303739513856,
+      "durationSeconds": 13.600000000000001,
+      "src": "/v2-pune/smooth-20.mp4",
+      "poster": "/v2-pune/smooth-20.png"
+    },
+    {
+      "id": "smooth-25",
+      "startMeters": 322.3188736406902,
+      "endMeters": 423.71801535048803,
+      "durationSeconds": 13.600000000000001,
+      "src": "/v2-pune/smooth-25.mp4",
+      "poster": "/v2-pune/smooth-25.png"
+    },
+    {
+      "id": "smooth-30",
+      "startMeters": 395.0046581613995,
+      "endMeters": 488.23755649530545,
+      "durationSeconds": 13.600000000000001,
+      "src": "/v2-pune/smooth-30.mp4",
+      "poster": "/v2-pune/smooth-30.png"
+    },
+    {
+      "id": "smooth-35",
+      "startMeters": 463.07945906782595,
+      "endMeters": 514.1985602042831,
+      "durationSeconds": 8.8,
+      "src": "/v2-pune/smooth-35.mp4",
+      "poster": "/v2-pune/smooth-35.png"
+    }
+  ],
+  "lookAheadMeters": 40,
+  "speedMetersPerSecond": 4,
+  "cameraOffsetDegrees": 90,
+  "disclaimer": "Historical recorded track. Not a verified driving route; no live GPS or turn/flyover guidance.",
+  "forward": {
+    "src": "/v2-pune/forward.mp4",
+    "secondsPerFrame": 1.6,
+    "lastFrameSeconds": 62.400000000000006
+  }
+}

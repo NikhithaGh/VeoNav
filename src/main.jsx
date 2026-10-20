@@ -1,6 +1,8 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { createRoot } from 'react-dom/client';
-import App from './App';
+
+const isOld = /^\/old\/?$/.test(window.location.pathname);
+const App = lazy(() => import('./App'));
 import './styles.css';
 
-createRoot(document.getElementById('root')).render(<React.StrictMode><App/></React.StrictMode>);
+createRoot(document.getElementById('root')).render(<React.StrictMode><Suspense fallback={<p>Loading VeoNav…</p>}><App puneDefault={!isOld}/></Suspense></React.StrictMode>);

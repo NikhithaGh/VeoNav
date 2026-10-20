@@ -1,0 +1,722 @@
+[
+  {
+    "id": "91ec24b0-c159-4b4f-9279-58269c69fb09",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8360561,
+      18.5194929
+    ],
+    "heading": 114.55322738510137,
+    "yaw": 91.55322738510131,
+    "capturedAt": "2022-11-09T03:14:49+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/91ec24b0-c159-4b4f-9279-58269c69fb09",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/91/ec/24/b0/c159-4b4f-9279-58269c69fb09/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "856a5f2e-9648-42a8-bc03-62509ee8efa9",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8361736,
+      18.519442
+    ],
+    "heading": 110.90183149995073,
+    "yaw": 91.90183149995073,
+    "capturedAt": "2022-11-09T03:14:51+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/856a5f2e-9648-42a8-bc03-62509ee8efa9",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/85/6a/5f/2e/9648-42a8-bc03-62509ee8efa9/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "862d70b3-e757-4726-a637-5c1ce2261574",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8362998,
+      18.5193963
+    ],
+    "heading": 109.51139485342094,
+    "yaw": 91.51139485342094,
+    "capturedAt": "2022-11-09T03:14:53+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/862d70b3-e757-4726-a637-5c1ce2261574",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/86/2d/70/b3/e757-4726-a637-5c1ce2261574/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "ace8aa3e-b3c4-4b9f-bd73-ab2044d25cc8",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8364251,
+      18.5193542
+    ],
+    "heading": 102.23216169062829,
+    "yaw": 91.23216169062835,
+    "capturedAt": "2022-11-09T03:14:55+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/ace8aa3e-b3c4-4b9f-bd73-ab2044d25cc8",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/ac/e8/aa/3e/b3c4-4b9f-bd73-ab2044d25cc8/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "c6ab6ad8-927c-44f8-974d-697f8275537a",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8365472,
+      18.5193291
+    ],
+    "heading": 92.71149683196921,
+    "yaw": 90.71149683196927,
+    "capturedAt": "2022-11-09T03:14:57+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/c6ab6ad8-927c-44f8-974d-697f8275537a",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/c6/ab/6a/d8/927c-44f8-974d-697f8275537a/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "def1cde6-4fde-4ba2-b2c7-e16d7518c765",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8366719,
+      18.5193235
+    ],
+    "heading": 79.42452544287596,
+    "yaw": 90.42452544287596,
+    "capturedAt": "2022-11-09T03:14:59+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/def1cde6-4fde-4ba2-b2c7-e16d7518c765",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/de/f1/cd/e6/4fde-4ba2-b2c7-e16d7518c765/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "2e55ce19-205d-40f9-8864-8efe314ae7db",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8367973,
+      18.5193457
+    ],
+    "heading": 76.69094859280773,
+    "yaw": 89.69094859280767,
+    "capturedAt": "2022-11-09T03:15:01+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/2e55ce19-205d-40f9-8864-8efe314ae7db",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/2e/55/ce/19/205d-40f9-8864-8efe314ae7db/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "860285ca-6483-42f2-afd9-9e536aec1a44",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8369199,
+      18.5193732
+    ],
+    "heading": 78.04313695301522,
+    "yaw": 90.04313695301516,
+    "capturedAt": "2022-11-09T03:15:03+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/860285ca-6483-42f2-afd9-9e536aec1a44",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/86/02/85/ca/6483-42f2-afd9-9e536aec1a44/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "3dca0d15-0eb7-4cbd-a04a-f98209018577",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8370444,
+      18.5193982
+    ],
+    "heading": 74.32817929334357,
+    "yaw": 89.32817929334351,
+    "capturedAt": "2022-11-09T03:15:05+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/3dca0d15-0eb7-4cbd-a04a-f98209018577",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/3d/ca/0d/15/0eb7-4cbd-a04a-f98209018577/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "5fd6b80c-265b-498e-93e4-0f8ae0ae566c",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8371801,
+      18.5194343
+    ],
+    "heading": 73.60563074887978,
+    "yaw": 89.60563074887978,
+    "capturedAt": "2022-11-09T03:15:07+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/5fd6b80c-265b-498e-93e4-0f8ae0ae566c",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/5f/d6/b8/0c/265b-498e-93e4-0f8ae0ae566c/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "65f86abb-9eaf-4d0d-9418-f597a3a8bf6c",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8373009,
+      18.519468
+    ],
+    "heading": 70.99387890319991,
+    "yaw": 89.99387890319986,
+    "capturedAt": "2022-11-09T03:15:08+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/65f86abb-9eaf-4d0d-9418-f597a3a8bf6c",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/65/f8/6a/bb/9eaf-4d0d-9418-f597a3a8bf6c/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "2391f802-e807-471b-a495-a6abb4cc4294",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8374298,
+      18.5195101
+    ],
+    "heading": 66.71368827271328,
+    "yaw": 89.71368827271328,
+    "capturedAt": "2022-11-09T03:15:11+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/2391f802-e807-471b-a495-a6abb4cc4294",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/23/91/f8/02/e807-471b-a495-a6abb4cc4294/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "e1ce354f-dba6-473b-b685-13182605a238",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8375533,
+      18.5195605
+    ],
+    "heading": 54.90322350396002,
+    "yaw": 88.90322350396002,
+    "capturedAt": "2022-11-09T03:15:13+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/e1ce354f-dba6-473b-b685-13182605a238",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/e1/ce/35/4f/dba6-473b-b685-13182605a238/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "98e79a85-a4e3-4b2d-bcf0-4582fb5da92d",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8376543,
+      18.5196278
+    ],
+    "heading": 51.008870935241646,
+    "yaw": 89.0088709352417,
+    "capturedAt": "2022-11-09T03:15:14+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/98e79a85-a4e3-4b2d-bcf0-4582fb5da92d",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/98/e7/9a/85/a4e3-4b2d-bcf0-4582fb5da92d/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "35e2f6ca-c6a2-416e-b61a-5f4e8b7825e7",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8377537,
+      18.5197041
+    ],
+    "heading": 48.951983903263624,
+    "yaw": 88.95198390326368,
+    "capturedAt": "2022-11-09T03:15:17+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/35e2f6ca-c6a2-416e-b61a-5f4e8b7825e7",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/35/e2/f6/ca/c6a2-416e-b61a-5f4e8b7825e7/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "32f6bde8-d386-4dd3-b67e-b720e9c9deca",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8378363,
+      18.5197723
+    ],
+    "heading": 47.60159645119802,
+    "yaw": 88.60159645119802,
+    "capturedAt": "2022-11-09T03:15:19+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/32f6bde8-d386-4dd3-b67e-b720e9c9deca",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/32/f6/bd/e8/d386-4dd3-b67e-b720e9c9deca/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "42bbe99c-f88e-41b7-aa04-e367444036ed",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8379123,
+      18.5198381
+    ],
+    "heading": 57.38442603508997,
+    "yaw": 89.38442603508997,
+    "capturedAt": "2022-11-09T03:15:21+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/42bbe99c-f88e-41b7-aa04-e367444036ed",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/42/bb/e9/9c/f88e-41b7-aa04-e367444036ed/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "3f01e698-fc72-41c3-bef0-c091eec515af",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8379891,
+      18.5198847
+    ],
+    "heading": 77.69840053066218,
+    "yaw": 89.69840053066218,
+    "capturedAt": "2022-11-09T03:15:23+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/3f01e698-fc72-41c3-bef0-c091eec515af",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/3f/01/e6/98/fc72-41c3-bef0-c091eec515af/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "42a8b080-bb5a-4c7b-bc62-cdfdfe8eca21",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8380718,
+      18.5199018
+    ],
+    "heading": 92.2972002534342,
+    "yaw": 90.2972002534342,
+    "capturedAt": "2022-11-09T03:15:25+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/42a8b080-bb5a-4c7b-bc62-cdfdfe8eca21",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/42/a8/b0/80/bb5a-4c7b-bc62-cdfdfe8eca21/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "689364c6-fcb9-472c-8cac-b449449e5a93",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8381717,
+      18.519898
+    ],
+    "heading": 96.19756523248122,
+    "yaw": 91.19756523248122,
+    "capturedAt": "2022-11-09T03:15:27+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/689364c6-fcb9-472c-8cac-b449449e5a93",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/68/93/64/c6/fcb9-472c-8cac-b449449e5a93/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "a16dd9d3-240c-412a-b7d7-cc33f4616d75",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8382795,
+      18.5198869
+    ],
+    "heading": 99.12057408705755,
+    "yaw": 91.12057408705755,
+    "capturedAt": "2022-11-09T03:15:29+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/a16dd9d3-240c-412a-b7d7-cc33f4616d75",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/a1/6d/d9/d3/240c-412a-b7d7-cc33f4616d75/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "0e6f0881-f5fc-4ad3-ba78-a9adb07c92a8",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8383984,
+      18.5198688
+    ],
+    "heading": 100.13117309634009,
+    "yaw": 91.13117309634004,
+    "capturedAt": "2022-11-09T03:15:30+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/0e6f0881-f5fc-4ad3-ba78-a9adb07c92a8",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/0e/6f/08/81/f5fc-4ad3-ba78-a9adb07c92a8/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "64c13a92-1b1f-4640-b2a9-265576637758",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8385188,
+      18.5198484
+    ],
+    "heading": 96.90196922043503,
+    "yaw": 90.90196922043503,
+    "capturedAt": "2022-11-09T03:15:33+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/64c13a92-1b1f-4640-b2a9-265576637758",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/64/c1/3a/92/1b1f-4640-b2a9-265576637758/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "1887938c-305e-4b0a-9bad-a13dddddfd34",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.838646,
+      18.5198338
+    ],
+    "heading": 96.55220230667982,
+    "yaw": 90.55220230667987,
+    "capturedAt": "2022-11-09T03:15:35+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/1887938c-305e-4b0a-9bad-a13dddddfd34",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/18/87/93/8c/305e-4b0a-9bad-a13dddddfd34/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "9262701f-61a6-4a52-9804-e19278a79dd5",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8387773,
+      18.5198195
+    ],
+    "heading": 96.20410045395693,
+    "yaw": 91.20410045395693,
+    "capturedAt": "2022-11-09T03:15:36+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/9262701f-61a6-4a52-9804-e19278a79dd5",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/92/62/70/1f/61a6-4a52-9804-e19278a79dd5/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "c7f6c50d-d989-4b7c-b10d-7b8884759116",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.838917,
+      18.5198051
+    ],
+    "heading": 98.8738104455515,
+    "yaw": 90.8738104455515,
+    "capturedAt": "2022-11-09T03:15:39+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/c7f6c50d-d989-4b7c-b10d-7b8884759116",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/c7/f6/c5/0d/d989-4b7c-b10d-7b8884759116/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "90a4f349-4227-406c-b6b9-d2301eb67f1a",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8390575,
+      18.5197843
+    ],
+    "heading": 99.29315894566832,
+    "yaw": 91.29315894566832,
+    "capturedAt": "2022-11-09T03:15:41+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/90a4f349-4227-406c-b6b9-d2301eb67f1a",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/90/a4/f3/49/4227-406c-b6b9-d2301eb67f1a/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "870cefd4-f286-49f5-a9e9-aef22284af44",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.839198,
+      18.5197625
+    ],
+    "heading": 99.28148854290151,
+    "yaw": 91.28148854290157,
+    "capturedAt": "2022-11-09T03:15:43+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/870cefd4-f286-49f5-a9e9-aef22284af44",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/87/0c/ef/d4/f286-49f5-a9e9-aef22284af44/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "f8639dc5-9be2-474d-a278-933ba3a46d73",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.839329,
+      18.5197422
+    ],
+    "heading": 99.78182627330682,
+    "yaw": 90.78182627330682,
+    "capturedAt": "2022-11-09T03:15:45+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/f8639dc5-9be2-474d-a278-933ba3a46d73",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/f8/63/9d/c5/9be2-474d-a278-933ba3a46d73/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "d04ace6a-55ad-476b-ada3-fddc930156da",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8394648,
+      18.51972
+    ],
+    "heading": 99.03812186579961,
+    "yaw": 91.03812186579967,
+    "capturedAt": "2022-11-09T03:15:47+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/d04ace6a-55ad-476b-ada3-fddc930156da",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/d0/4a/ce/6a/55ad-476b-ada3-fddc930156da/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "89af976d-1d53-49b3-a77d-855ca3ef825b",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8395974,
+      18.5197
+    ],
+    "heading": 99.72127891870628,
+    "yaw": 90.72127891870628,
+    "capturedAt": "2022-11-09T03:15:49+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/89af976d-1d53-49b3-a77d-855ca3ef825b",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/89/af/97/6d/1d53-49b3-a77d-855ca3ef825b/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "8ef8f729-22cf-4024-b9c6-f7ee4cc15dd4",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8397316,
+      18.5196782
+    ],
+    "heading": 100.71194841149406,
+    "yaw": 90.71194841149406,
+    "capturedAt": "2022-11-09T03:15:51+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/8ef8f729-22cf-4024-b9c6-f7ee4cc15dd4",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/8e/f8/f7/29/22cf-4024-b9c6-f7ee4cc15dd4/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "a7270ce2-fdd2-47ba-8c1e-581ce45b08b9",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8398654,
+      18.5196542
+    ],
+    "heading": 100.73495077889538,
+    "yaw": 90.73495077889538,
+    "capturedAt": "2022-11-09T03:15:52+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/a7270ce2-fdd2-47ba-8c1e-581ce45b08b9",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/a7/27/0c/e2/fdd2-47ba-8c1e-581ce45b08b9/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "5ea97644-0c58-4d2f-8ff4-427789916f64",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8399939,
+      18.5196311
+    ],
+    "heading": 101.12859708946405,
+    "yaw": 91.12859708946405,
+    "capturedAt": "2022-11-09T03:15:55+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/5ea97644-0c58-4d2f-8ff4-427789916f64",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/5e/a9/76/44/0c58-4d2f-8ff4-427789916f64/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "e48141ee-c3f0-43b9-9b3c-8d4fde2199ca",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8401156,
+      18.5196084
+    ],
+    "heading": 97.05478598751188,
+    "yaw": 91.05478598751188,
+    "capturedAt": "2022-11-09T03:15:57+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/e48141ee-c3f0-43b9-9b3c-8d4fde2199ca",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/e4/81/41/ee/c3f0-43b9-9b3c-8d4fde2199ca/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "5e842a09-2c84-4940-9bfc-2cad948ac363",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8402332,
+      18.5195946
+    ],
+    "heading": 101.37046496803612,
+    "yaw": 91.37046496803612,
+    "capturedAt": "2022-11-09T03:15:58+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/5e842a09-2c84-4940-9bfc-2cad948ac363",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/5e/84/2a/09/2c84-4940-9bfc-2cad948ac363/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "82e6b890-5ad0-46dd-8174-07896e6a0eb4",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.840347,
+      18.5195729
+    ],
+    "heading": 98.76272485868958,
+    "yaw": 90.76272485868958,
+    "capturedAt": "2022-11-09T03:16:01+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/82e6b890-5ad0-46dd-8174-07896e6a0eb4",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/82/e6/b8/90/5ad0-46dd-8174-07896e6a0eb4/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "c4439a63-ccc6-4cfd-8a21-abba64935b27",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8404681,
+      18.5195552
+    ],
+    "heading": 104.33261656136574,
+    "yaw": 91.33261656136574,
+    "capturedAt": "2022-11-09T03:16:03+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/c4439a63-ccc6-4cfd-8a21-abba64935b27",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/c4/43/9a/63/ccc6-4cfd-8a21-abba64935b27/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "d2873acb-e201-4d81-b597-dd302f1d51a5",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8405878,
+      18.5195262
+    ],
+    "heading": 104.99630806968594,
+    "yaw": 90.99630806968594,
+    "capturedAt": "2022-11-09T03:16:05+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/d2873acb-e201-4d81-b597-dd302f1d51a5",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/d2/87/3a/cb/e201-4d81-b597-dd302f1d51a5/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  },
+  {
+    "id": "5ed97757-9cab-4123-a453-4909926cc1cc",
+    "collection": "658d9adb-97b5-45b4-a383-0909b5673d47",
+    "coordinates": [
+      73.8407063,
+      18.5194961
+    ],
+    "heading": 104.99630806968594,
+    "yaw": 92.99630806968594,
+    "capturedAt": "2022-11-09T03:16:07+00:00",
+    "creator": "Devdatta",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "source": "https://api.panoramax.xyz/api/collections/658d9adb-97b5-45b4-a383-0909b5673d47/items/5ed97757-9cab-4123-a453-4909926cc1cc",
+    "asset": "https://panoramax.openstreetmap.fr/derivates/5e/d9/77/57/9cab-4123-a453-4909926cc1cc/sd.jpg",
+    "modifications": "Route-relative +90 degree calibrated perspective, resized and attributed; forward-only temporal frame blending (no loop reset).",
+    "cameraOffsetDegrees": 90
+  }
+]

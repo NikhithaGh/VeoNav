@@ -61,6 +61,7 @@ export function createApp({ distPath = join(projectRoot, 'dist') } = {}) {
   });
   app.use('/api', (_req, res) => res.status(404).json({ error: 'Unknown API endpoint.' }));
   app.get('/ws', (_req, res) => res.status(426).json({ error: 'WebSocket upgrade required.' }));
+  app.get(['/v2', '/v2/'], (_req, res) => res.status(404).type('text').send('This page has moved. Open / for the latest Pune experience.'));
   app.use(express.static(distPath, { index: false }));
   app.use((req, res, next) => {
     if (req.method !== 'GET' || !req.accepts('html')) return next();

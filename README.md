@@ -36,6 +36,26 @@ npm test
 
 Tests cover playback, GPS projection, geofence boundaries, route validation, scene retrieval, HTTP endpoints, and WebSocket behavior.
 
+## Pune homepage (`/`)
+
+The primary `/` page (formerly V2) defaults to a 514-meter historical Pune track. Play/Pause, Reset, and a progress slider drive simulated travel at approximately 14 km/h. The V1-style sidebar, route panel, and Google Map default to Pune. A bottom-right preview appears after Play and follows a target 40 meters ahead using one forward-only video, with no automatic rewind or looping. Video time is interpolated from recorded distances rather than free-running: pausing freezes it, reaching the end holds the last frame, and only explicit slider movement or Replay can revisit earlier imagery. Reset hides the preview. Frame blending softens the transitions; it does not reconstruct continuous driving footage. The Pune camera is calibrated +90° from its metadata-derived view, as confirmed by the user; each frame retains its route-relative heading and uses an 85° horizontal field of view. Crossfades are presentation transitions, not reconstructed continuous movement. The original application is available at `/old` (also `/old/`), with its live integrations unchanged. `/v2` and `/v2/` permanently redirect to `/`.
+
+V2 uses bundled media in `public/v2-pune/`. Google Maps uses the existing browser key from `/api/live/config` and can incur map-load charges; no Google routing or Street View requests are made by V2. Missing map configuration is reported without disabling the simulation. The overlaid line is a recorded GPS track, not a Google-calculated or verified driving route. Footage is from November 9, 2022, credited to Devdatta via Panoramax under CC BY-SA 4.0; source links and modification notices are included in the page and `credits.json`. Preserve attribution and share-alike obligations when redistributing derivatives.
+
+To regenerate the bundled clips from a generated Pune segment, run `node scripts/prepare-pune-v2.mjs demo-output/<run>/segment-1`, then `node scripts/prepare-pune-forward.mjs demo-output/<run>/segment-1`, then `npm run build`. The forward preparation step is required for the current UI. Deploy the resulting app using the existing Cloud Run source deployment workflow. Raw `demo-output/` downloads are excluded from both Cloud uploads and Docker builds; the curated public clips are included. The app supports direct `/` and `/old` requests, redirects former `/v2` links to `/`, and supports byte-range video delivery.
+
+Validation: `node --test tests/pune-v2.test.js tests/panoramax-demo.test.js` and `npm run build`.
+
+## Panoramax preview generator (experimental)
+
+Run `npm run demo:panoramax` with Node.js 22+, installed npm dependencies, and FFmpeg on PATH (including the v360 filter and libx264 encoder). The standalone script searches Mumbai, Hyderabad, then Pune only; it does not fall back outside India. `--india-only` remains accepted for compatibility; all searches are now India-only.
+
+Verified Pune demo: `npm run demo:panoramax -- --region Pune --count 1 --frames 40` generates a roughly 13-second preview covering approximately 514 meters of the available recorded track. Use `--region Mumbai`, `--region Hyderabad`, or `--region Pune` to restrict searches; omit it to search all three in order. Other options: `npm run demo:panoramax -- --count 1 --frames 16 --output demo-output`. Each run creates a unique directory containing source images, attributed perspective frames, GIF/MP4 previews, per-frame source/license metadata, recorded GeoJSON tracks, a coverage manifest, and an HTML gallery. Generated files under `demo-output/` are gitignored. Network calls download public imagery; the existing Google navigation interface is unchanged.
+
+The generator requires continuous 360° sequences with supported open licenses and known camera headings. It searches a bounded sample, rejects discontinuities, and exits unsuccessfully if it cannot produce the requested count (five by default), preserving completed previews and a report. Searches are not exhaustive coverage audits. Pune has a verified 48-image consecutive panorama sequence; five distinct usable segments have **not** been verified. Regular point-of-interest photos are not treated as driving footage.
+
+These are historical recorded segments, not verified driving routes, flyover classifications, or live 100-meter-triggered previews. Preserve creator attribution, source links, capture dates, modification notices, and applicable license obligations when sharing images or derivatives (including CC BY-SA share-alike requirements). Review visual continuity and camera orientation before presenting a generated clip.
+
 ## Procedural demo in 90 seconds
 
 Open **Explore** in the sidebar. This workspace remains simulated and does not call paid Maps services.

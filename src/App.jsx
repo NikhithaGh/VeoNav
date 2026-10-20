@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { lazy, Suspense, useEffect, useRef, useState } from 'react';
 import { Activity, ArrowDown, ArrowLeft, ArrowRight, ArrowUpRight, AudioLines, Bookmark, Check, CheckCircle2, ChevronDown, ChevronRight, Clock3, Cloud, Compass, Flag, Footprints, Github, Globe2, Info, Layers3, Leaf, Link, LoaderCircle, LocateFixed, Map, MapPin, Navigation, Navigation2, Pause, Play, Radio, RotateCcw, Route, Search, Settings2, ShieldCheck, Sparkles, Volume2, VolumeX, X, Zap, CarFront } from 'lucide-react';
 import RouteMap from './RouteMap';
 import Windshield from './Windshield';
@@ -8,7 +8,9 @@ import { advance, destinations, projectPosition, zoneFor } from './navigation';
 function readSaved() { try { const value = JSON.parse(localStorage.getItem('aeronav-saved') || '[]'); return Array.isArray(value) ? value.filter(id => destinations.some(place => place.id === id)) : []; } catch { return []; } }
 const distanceLabel = meters => meters >= 1000 ? `${(meters / 1000).toFixed(1)} km` : `${Math.round(meters)} m`;
 
-export default function App() {
+const PuneNavigator = lazy(() => import('./PuneV2'));
+
+export default function App({ puneDefault = false }) {
   const [destination, setDestination] = useState('ferry');
   const [mode, setMode] = useState('drive');
   const [route, setRoute] = useState(null);
@@ -148,7 +150,7 @@ export default function App() {
     <div className="main-shell">
       <header className="topbar"><div className="breadcrumb">Workspace <ChevronRight size={14}/><strong>{isLive?'Live navigation':tab==='saved'?'Saved places':tab==='journey'?'Your journey':'Demo explorer'}</strong></div><div className="topbar-right"><span className="prototype-pill"><span className="live-dot"/>HACKATHON PROTOTYPE</span><button className="icon-button" onClick={()=>setModal(isLive?'live-settings':'settings')} aria-label="Navigation settings"><Settings2 size={18}/></button><span className="avatar">AN</span></div></header>
       <main>
-        {isLive ? <LiveNavigator/> : <>
+        {isLive ? (puneDefault ? <Suspense fallback={<p>Loading Pune route…</p>}><PuneNavigator embedded/></Suspense> : <LiveNavigator/>) : <>
         <section className="page-heading"><div><div className="eyebrow"><span/>A CLEARER WAY FORWARD</div><h1>{tab==='saved'?'Good places, kept close.':tab==='journey'?'Every turn, in perspective.':'Less second-guessing. More going.'}</h1><p>{tab==='saved'?'Your next adventure is right where you left it.':tab==='journey'?'Follow the route, explore the details, and see what’s ahead.':'Predictive 3D navigation that makes the unfamiliar feel familiar.'}</p></div><button className="button-outline heading-action" onClick={()=>setModal('how')}><Play size={14} fill="currentColor"/>How it works</button></section>
 
         {tab==='saved'&&<section className="saved-section">{saved.length ? destinations.filter(d=>saved.includes(d.id)).map(d=><button className="saved-place" key={d.id} onClick={()=>choose(d.id)}><span className="saved-icon"><MapPin size={23}/></span><div><strong>{d.name}</strong><small>{d.address}</small></div><ArrowUpRight size={20}/></button>):<div className="empty-saved"><Bookmark size={26}/><div><strong>A little inspiration for later.</strong><p>Save a destination using the bookmark beside your route.</p></div><button className="button-outline" onClick={()=>setTab('explore')}>Explore places <ArrowRight size={15}/></button></div>}</section>}
